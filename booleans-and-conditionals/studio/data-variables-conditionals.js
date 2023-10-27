@@ -1,5 +1,20 @@
 // Initialize Variables below
-
+date	Monday 2019-03-18
+time	10:05:34 AM
+astronautCount	7
+astronautStatus	ready
+averageAstronautMassKg	80.7
+crewMassKg	astronautCount * averageAstronautMassKg
+fuelMassKg	760,000
+shuttleMassKg	74842.31
+totalMassKg	crewMassKg + fuelMassKg + shuttleMassKg
+maximumMassLimit	850000
+fuelTempCelsius	-225
+minimumFuelTemp	-300
+maximumFuelTemp	-150
+fuelLevel	100%
+weatherStatus	clear
+preparedForLiftOff	true
 // add logic below to verify total number of astronauts for shuttle launch does not exceed 7
 
 // add logic below to verify all astronauts are ready
